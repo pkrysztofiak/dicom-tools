@@ -1,4 +1,4 @@
-package pl.pkrysztofiak.dicomtools;
+package pl.pkrysztofiak.dicomtools.getscu;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.Option;
@@ -58,7 +58,7 @@ public class GetSCU {
     }
 
     private static ResourceBundle rb =
-            ResourceBundle.getBundle("pl.pkrysztofiak.dicomtools.messages");
+            ResourceBundle.getBundle("pl.pkrysztofiak.dicomtools.getscu.messages");
 
     private static final int[] DEF_IN_FILTER = {
             Tag.SOPInstanceUID,
